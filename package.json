@@ -1,0 +1,25 @@
+{
+  "name": "pokeapi-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --forceExit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "sinon": "^14.0.2",
+    "supertest": "^6.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "jest-junit": "^14.0.1"
+  }
+}
